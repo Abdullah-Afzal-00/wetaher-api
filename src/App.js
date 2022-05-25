@@ -4,7 +4,7 @@ import "./App.css";
 import axios from "axios";
 
 const App = () => {
-  const APIkey = "ee32bc1e5006043421553617e392b255";
+  const APIkey = ""; //go get your API Key from "openweather.org" by logging in to it.
   const [data, setData] = useState("");
   const [cityName, setCityName] = useState("");
   const [temprature, setTemprature] = useState("");
